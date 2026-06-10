@@ -2,14 +2,16 @@
 
 Personal portfolio and CV website for **Mukund Agarwal**, Senior DevOps & Platform Engineering Professional.
 
-🌐 **Live Site:** `https://<your-github-username>.github.io/<repo-name>/`
+🌐 **Live Site:** https://mukundagarwal025.github.io/cv/
+
+📁 **Repository:** https://github.com/mukundagarwal025/cv
 
 ---
 
 ## Tech Stack
 
 - Pure HTML5 / CSS3 / Vanilla JavaScript (no build tools required)
-- Hosted via **GitHub Pages** with automated deployment via GitHub Actions
+- Hosted via **GitHub Pages**
 
 ## Repository Structure
 
@@ -19,25 +21,19 @@ Personal portfolio and CV website for **Mukund Agarwal**, Senior DevOps & Platfo
 │   └── style.css                 # All styles
 ├── js/
 │   └── main.js                   # Scroll animations, navbar, interactions
-└── .github/
-    └── workflows/
-        └── deploy.yml            # GitHub Actions — auto-deploy to Pages
+└── README.md
 ```
 
 ## Deploy to GitHub Pages
 
-1. **Create a new GitHub repo** (e.g., `mukund-portfolio`)
-2. Push this folder to the `main` branch:
+1. Push to the `main` branch:
    ```bash
-   git init
    git add .
-   git commit -m "Initial portfolio"
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
-   git push -u origin main
+   git commit -m "Update"
+   git push origin main
    ```
-3. In your repo → **Settings → Pages → Source**: select **GitHub Actions**
-4. The workflow runs automatically on every push to `main`
-5. Your site will be live at `https://<your-username>.github.io/<repo-name>/`
+2. In your repo → **Settings → Pages → Source**: select **Deploy from branch (main)**
+3. Site is live at: `https://mukundagarwal025.github.io/cv/`
 
 ## Features
 
