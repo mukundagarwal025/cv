@@ -110,7 +110,7 @@ img { max-width: 100%; }
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px 1.5rem 60px;
+  padding: 100px 1.5rem 120px;
   overflow: hidden;
 }
 .hero-bg-grid {
